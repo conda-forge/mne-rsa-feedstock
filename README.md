@@ -1,11 +1,11 @@
-About mne-rsa
-=============
+About mne-rsa-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mne-rsa-feedstock/blob/main/LICENSE.txt)
 
 Home: https://users.aalto.fi/~vanvlm1/mne-rsa/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mne-rsa-feedstock/blob/main/LICENSE.txt)
 
 Summary: Representational Similarity Analysis on MEG and EEG data
 
