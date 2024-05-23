@@ -1,5 +1,5 @@
 {% set name = "mne-rsa" %}
-{% set version = "0.91" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7fc1013d97910e443b6d51812248176a4e811077031a82179ebfd21f6efb15b0
+  sha256: 45cb24831ee2b0a104f5c91b5b97c16f3de80b6380aa252a5cef3679ec359766
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - numpy
     - scipy
     - matplotlib-base
