@@ -27,6 +27,9 @@ requirements:
     - mne-base
     - nibabel
     - scikit-learn
+    - pyside6
+    - pyvistaqt
+    - pyvista
 
 test:
   imports:
