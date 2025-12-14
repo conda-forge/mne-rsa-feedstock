@@ -1,5 +1,5 @@
 {% set name = "mne-rsa" %}
-{% set version = "0.10" %}
+{% set version = "1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8c2840d8f3210978fd35b05f8eca505d29591afe8a5dd5e3f8bc25e22a2d5b13
+  sha256: 1f652d5163b349f3edb6faed06ab5f59ee475952e504a20f0addcfbbdfadc784
 
 build:
   noarch: python
